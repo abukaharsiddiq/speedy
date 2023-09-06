@@ -1,0 +1,139 @@
+.container_area{
+  min-height: 700px;
+  background: #fff;
+}
+.category-area{
+   background: #fff;
+   height: 500px;
+}
+.category-title{
+	height: 45px;
+	background: #ddd;
+	
+	/*border-radius: 5px 5px 0px 0px;*/
+}
+.category-title h3{
+	color:#000;
+	margin-top: 14px;
+	font-size: 15px;
+	padding-left: 5px;
+	font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.category-menu{
+  background: #fff;
+  padding-left:0px!important;
+
+}
+
+.category-menu-left{
+	background: #fff;
+	padding:0px!important;
+	height: 510px;
+	/*overflow: scroll;*/
+
+
+}
+
+.category-menu-left{
+	padding-left: 0px;
+ 
+}
+.category-menu-left ul{
+ list-style: none;
+ padding-left: 0px;
+ 
+}
+.category-menu-left ul li{
+ width: 195px;
+ height: 35px;
+ line-height: 35px;
+ border:1px solid #A9A9A9;
+ border-top: none;
+ padding-right: 0px!important;
+ 
+}
+.category-menu-left ul li a{
+padding-left: 5px;
+text-decoration: none;
+font-size: 15px;
+font-weight: bold;
+color: #2E3092;
+display: block!important;
+height: 35px;
+line-height: 35px;
+position: relative;
+/*font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;*/
+font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+
+}
+
+/*---for menu arror---*/
+.category-menu-left ul li a span{
+	float: right;
+	margin-right: 5px;
+	margin-top:10px;
+}
+.category-menu-left ul li a:hover{
+ color: #ffffff;
+background:#2E3092;
+transition: .5s all;
+display: block!important;
+height: 35px;
+line-height: 35px;
+z-index:100;
+
+}
+.category-menu-left ul li ul {
+ visibility: hidden;
+
+}
+.category-menu-left ul li:hover ul {
+ visibility:visible;
+ margin-top: -35px;
+ position: absolute;
+
+}
+.category-menu-left ul li ul li {
+ margin-left: 195px;
+ z-index: 1000;
+ position: relative;
+ background: #fff;
+
+
+}
+
+/*------------payment method---*/
+.bank_area{
+	min-height: 50px;
+	margin-top: 10px;
+}
+.bank_image{
+	height: 50px;
+    
+}
+.methodName{
+	height: 50px;
+	margin-top: 80px;
+}
+.methodName h4{
+	line-height: 50px;
+	   text-transform: capitalize;
+}
+.bank_image img{
+	height: 50px;
+	width: 100%;
+    
+}
+.hotline-invest{
+	height: 80px;
+	background-image:url(../img/h.png);
+	margin-top: 20px;
+	background-size: 100% 100%;
+}
+
+.productDetail_informationTitle{border:1px solid gray; height: 45px;}
+.productDetail_informationTitle h3{
+	line-height: 35px;
+	font-size: 22px;
+}
